@@ -5,31 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="page-header">
-        <a class="logo" href=""></a>
-        <ul class="page-header-nav">
-            <li class="page-nav"><a href="">Home</a></li>
-            <li class="page-nav"><a href="">About</a></li>
-            <li class="page-nav"><a href="">Service</a></li>
-            <li class="page-nav"><a href="">Menu</a></li>
-            <li class="page-nav"><a href="">Contact</a></li>
-        </ul>
-        <button type="button" class="btn">Order Now</button>
-        <button class="mobile-btn mobile-menu__open-btn" type="button"></button>
-        <div class="mobile-menu">
-            <div class="mobile-menu__clouse-btn">
-                <button class="ul"> </button>
-                <ul>
-                <li class="page-nav"><a href="">Home</a></li>
-                <li class="page-nav"><a href="">About</a></li>
-                <li class="page-nav"><a href="">Service</a></li>
-                <li class="page-nav"><a href="">Menu</a></li>
-                <li class="page-nav"><a href="">Contact</a></li>
+        <div class="container header-container">
+            <a class="logo" href="./index.html">
+                <svg class="logo-icon" width="60" height="52">
+                    <use href="./images/icon.svg#icon-vector"></use>
+                </svg>
+            </a>
+            <nav>
+                <ul class="page-header-nav list">
+                    <li class="page-nav">
+                        <a class="page-header-text link" href="">Home</a>
+                    </li>
+                    <li class="page-nav">
+                        <a class="page-header-text link" href="">About</a>
+                    </li>
+                    <li class="page-nav">
+                        <a class="page-header-text link" href="">Service</a>
+                    </li>
+                    <li class="page-nav">
+                        <a class="page-header-text link" href="">Menu</a>
+                    </li>
+                    <li class="page-nav">
+                        <a class="page-header-text link" href="">Contact</a>
+                    </li>
                 </ul>
-            </div>
+            </nav>
+           
+            <button type="button" class="btn header-btn">Order Now</button>
+            <button class="mobile-btn mobile-menu__open-btn" type="button" data-menu-open>
+                <svg class="mobile-btn-icon" width="23" height="16">
+                    <use href="./images/icon.svg#icon-burger"></use>
+                </svg>
+            </button>
+            <!-- <div class="mobile-menu" data-menu>
+                <div class="mobile-menu__clouse-btn" data-menu-close>
+                    <button type="button"> 
+                        <svg class="mobile-btn__icon-clouse" width="24" height="24">
+                        <use href="./images/icon.svg#icon-clouse"></use>
+                    </svg> 
+                </button>
+                    <ul class="mobile-menu-list list">
+                        <li class="page-menu-text">
+                            <a class="mobile-menu-text link" href="">Home</a></li>
+                        <li class="page-menu-text">
+                            <a class="mobile-menu-text link" href="">About</a></li>
+                        <li class="page-menu-text">
+                            <a class="mobile-menu-text link" href="">Service</a></li>
+                        <li class="page-menu-text">
+                            <a class="mobile-menu-text link" href="">Menu</a></li>
+                        <li class="page-menu-text">
+                            <a class="mobile-menu-text link" href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div> -->
         </div>
+        
     </header>
     <main></main>
     <footer></footer>
