@@ -125,3 +125,137 @@ body {
     line-height: 1.16;
     margin-bottom: 16px;
   }
+  /* =========DESCRIPTION============ */
+
+  .description {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-color: var(--secondary-background);
+  }
+
+  .icon {
+    margin-bottom: 8px;
+  }
+
+  /* ===========FAVORITES=========== */
+  .favorites {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  
+  .favorites-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .favorite-text {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .favorites-foto {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.favirites-img {
+    width: 282px;
+    height: 282px;
+    background: #FEFEFE;
+    border: 11px solid #FFE550;
+    border-radius: 140px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============REVIEWS========= */
+
+.reviews {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-background);
+}
+
+.reviews-title {
+    margin-bottom: 20px;
+}
+
+.reviews-text {
+    margin-bottom: 32px;
+}
+
+.wrapper {
+    width: 280px;
+    height: 247px;
+    padding: 7px 11px 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+    border-radius: 0px 30px 30px 30px;
+    margin-bottom: 24px;
+}
+
+.reviews-icon {
+    fill: var(--accent-hover);
+    margin-bottom: 29px;
+}
+
+.text-comment {
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 41px;
+}
+
+.reviews-wpap-card {
+    display: flex;
+    column-gap: 16px;
+}
+
+.wrap-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;  
+}
+
+/* ==========subscribe========== */
+
+.subscribe {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page-img {
+    margin-bottom: 17px;
+}
+
+.subscribe-title {
+    margin-bottom: 20px;
+}
+
+.subscribe-text {
+    margin-bottom: 40px;
+}
+
+.page-input {
+    width: 279px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 0.854167px solid #FFE550;
+    border-radius: 30px;
+    padding: 11px 12px;
+    margin-bottom: 16px;
+}
+
+.page-input::placeholder {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
+}
+
+.subscribe-btn {
+    text-align: center;
+}
