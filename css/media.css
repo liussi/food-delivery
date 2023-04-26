@@ -91,12 +91,22 @@
        visibility: visible;
        pointer-events: auto;
    }
-  
-}
 
+   /* =========HERO=========== */
+
+   .hero-img {
+    display: none;
+   }
+  
+
+/* =============description================ */
+
+
+}
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
+        
     }
 
      .page-header-nav {
@@ -121,7 +131,96 @@
    .mobile-menu {
     display: none;
 }
+/* =========HERO=========== */
 
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero-img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 14px solid #FFE550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    right: 15px;
+    top: 50px;
+}
+
+.hero-title {
+    width: 537px;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 44px;
+}
+
+.hero-text {
+font-size: 16px;
+margin-bottom: 40px;
+}
+
+.text {
+    width: 336px;
+    height: 120px;
+}
+/* =============description================ */
+.description-wrapper {
+    
+    background-image: url(../images/description/apple1.svg),url(../images/description/apple2.svg);
+    background-repeat: no-repeat;
+    background-position: right 178px top 71px, right 32px top 145px;
+}
+    
+.description-img-wrap {
+    width: 365px;
+    height: 363px;
+    margin-left: 32px;
+    margin-bottom: 65px;
+}
+
+.description-img {
+width: 365px;
+    height: 363px;
+}
+
+.hero-title {
+    font-size: 42px;
+    line-height: 1.17;
+    margin-bottom: 20px;
+}
+
+.description-text {
+    width: 500px;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+
+.description-page {
+    display: flex;
+    gap: 116px;
+    margin-bottom: 63px;
+}
+
+.description-list {
+    width: 252px;
+}
+
+.btn {
+    margin-left: 0;
+}
+/* ========favorites===================== */
+
+.favorites-title {
+    text-align: center;
+}
 
 }
 
