@@ -127,14 +127,24 @@
                 <p class="hero-text favorite-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <ul class="favorites-foto">
                     <li class="favirites-img">
-                   <img src="./images/favorites/gamburger.jpg" alt="gamburger" width="223" height="223">
+                   <img class="favorites-foto-icon" src="./images/favorites/gamburger.jpg" alt="gamburger" width="223" height="223">
                     </li>
                     <li class="favirites-img">
-                     <img  src="./images/favorites/pasta.jpg" alt="pasta" width="223" height="223">
+                     <img class="favorites-foto-icon" src="./images/favorites/pasta.jpg" alt="pasta" width="223" height="223">
                     </li>
                     <li class="favirites-img">
-                    <img  src="./images/favorites/pizza.jpg" alt="pizza" width="223" height="223">
+                    <img class="favorites-foto-icon" src="./images/favorites/pizza.jpg" alt="pizza" width="223" height="223">
                     </li>
+                        <li class="favirites-img favorites-wrap">
+                            <img class="favorites-foto-icon" src="./images/favorites/chicken.jpg" alt="chicken">
+                        </li>
+                        <li class="favirites-img favorites-wrap">
+                            <img class="favorites-foto-icon" src="./images/favorites/salat.jpg" alt="salat">
+                        </li>
+                        <li class="favirites-img favorites-wrap">
+                            <img class="favorites-foto-icon" src="./images/favorites/borshch.jpg" alt="borshch">
+                        </li>
+                    
                 </ul>    
             </div>
         </section>
@@ -203,7 +213,7 @@
                         <use href="./images/icon.svg#icon-vector"></use>
                     </svg>
                 </a>
-                <img src="./images/footer/apple.jpg" alt="apple" width="110" height="116">
+                <img class="footer-img" src="./images/footer/apple.jpg" alt="apple" width="110" height="116">
             </div>
             <div class="footer-list">
             <ul class="mobile-menu-list list">
@@ -223,22 +233,28 @@
                     <a class="page-header-text link" href="">Contact</a>
                 </li>
             </ul>
-                <img src="./images/footer/orange.jpg" alt="orange" width="104" height="259">
+            </div>
+            <div class="footer-icon">
+                <img class="footer-img" src="./images/footer/orange.jpg" alt="orange" width="104" height="259">
+
             </div>
             </div>
             <h3 class="reviews-title-text footer-text">Subscribe</h3>
-            <form >
+            <form class="footer-form">
                 <input type="email" class="page-input" placeholder="Enter your email">
-                <button type="submit" class="btn footer-btn button">Subscribe</button>
+                <button type="submit" class="btn subscribe-btn button">Subscribe</button>
             </form>
             <p class="hero-text footer-text-policy">By subscribing you agree to with our the&nbsp;<a class="footer-link" href="">Privacy Policy</a></p>
-            <ul class="footer-page list">
-                <li class="footer-page-link"><a class="footer-link" href="">Privacy Policy</a></li>
-                <li class="footer-page-link"><a class="footer-link" href="">Terms of Service</a></li>
-                <li class="footer-page-link"><a class="footer-link" href="">Cookies Settings</a></li>    
-            </ul>
-            <p class="hero-text footer-page-text">2022 FoodSta. All right reserved.</p>
-            <img class="footer-foto" src="./images/footer/fructs.jpg" alt="fructs" width="253" height="66">
+            <div class="footer-page-wrap">
+                <ul class="footer-page list">
+                    <li class="footer-page-link"><a class="footer-link" href="">Privacy Policy</a></li>
+                    <li class="footer-page-link"><a class="footer-link" href="">Terms of Service</a></li>
+                    <li class="footer-page-link"><a class="footer-link" href="">Cookies Settings</a></li>
+                </ul>
+                <p class="hero-text footer-page-text">2022 FoodSta. All right reserved.</p>
+            </div>
+            
+            <img class="footer-foto footer-img" src="./images/footer/fructs.jpg" alt="fructs" width="253" height="66">
         </div>
     </footer>
     <script src="./js/mobile.js"></script>

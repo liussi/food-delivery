@@ -101,6 +101,11 @@
 
 /* =============description================ */
 
+/* ============favorites=============== */
+
+.favorites-wrap {
+    display: none;
+}
 
 }
 @media screen and (min-width: 768px) {
@@ -114,6 +119,7 @@
         justify-content: center;
         align-items: center;
         gap: 28px;
+        margin-right: 30px;
     }
 
      .btn {
@@ -191,8 +197,6 @@ width: 365px;
 }
 
 .hero-title {
-    font-size: 42px;
-    line-height: 1.17;
     margin-bottom: 20px;
 }
 
@@ -219,10 +223,141 @@ width: 365px;
 /* ========favorites===================== */
 
 .favorites-title {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text {
+    margin-bottom: 60px;
+}
+
+.favorites-foto {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.favirites-img {
+    width: 336px;
+    height: 338px;
+    border: 14px solid #FFE550;
+    border-radius: 167.59px;
+}
+
+.favorites-foto-icon {
+    width: 267px;
+    height: 268px;
+}
+
+/* =============reviews=========== */
+.reviews-text {
+    margin-bottom: 34px;
+}
+
+.wrapper {
+    width: 336px;
+    height: 261px;
+    padding: 16px 12px 32px;
+    margin: 0;
+}
+.reviews-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+.text-comment {
+    width: 312px;
+    height: 90px;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+/* ==========subscribe=========== */
+.page-img {
+    display: none;
+}
+
+.subscribe-title {
+    width: 656px;
+}
+
+.hero-text {
+    margin-bottom: 24px;
+}
+
+.subscribe-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+
+.page-input {
+    width: 394px;
+    height: 42px;
+    margin: 0;
+}
+
+.subscribe-btn {
+    margin-left: 24px;
+    padding: 11px 22px;
+}
+
+/* ===========footer========== */
+.footer-wrap {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 76px;
+}
+
+.footer-img {
+    display: none;
+}
+.mobile-menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.page-input {
+    width: 279px;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.footer-text-policy {
+    text-align: start;
+    margin-bottom: 80px;
+}
+
+.footer-page {
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.footer-page-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/footer/group-116.jpg);
 }
 
 }
+
+
+
 
 @media screen and (min-width: 1280px) {
     .container {
@@ -232,4 +367,6 @@ width: 365px;
     justify-content: flex-end;
 
     }
+
+    
 }
