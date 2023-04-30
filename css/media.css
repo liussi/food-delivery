@@ -138,6 +138,9 @@
     display: none;
 }
 /* =========HERO=========== */
+.hero {
+    padding-bottom: 100px;
+}
 
 .hero-container {
     display: flex;
@@ -160,7 +163,7 @@
     top: 50px;
 }
 
-.hero-title {
+.hero-list {
     width: 537px;
     font-size: 42px;
     line-height: 1.2;
@@ -196,7 +199,7 @@ width: 365px;
     height: 363px;
 }
 
-.hero-title {
+.description-title {
     margin-bottom: 20px;
 }
 
@@ -205,7 +208,6 @@ width: 365px;
     font-size: 16px;
     line-height: 1.9;
 }
-
 
 .description-page {
     display: flex;
@@ -250,7 +252,7 @@ width: 365px;
 }
 
 /* =============reviews=========== */
-.reviews-text {
+.reviews-text-page {
     margin-bottom: 34px;
 }
 
@@ -368,5 +370,143 @@ width: 365px;
 
     }
 
+    /* ===============hero=========== */
+    .hero-wrapper {
+        padding-top: 150px;
+        padding-bottom: 170px;
+    }
+
+    .hero-title {
+        width: 515px;
+            font-size: 48px;   
+            margin-bottom: 28px;
+    }
+
+    .hero-text {
+        margin-bottom: 46px;
+    }
+
+    .text {
+        width: 514px;
+        height: 69px;
+    }
+
+/* ===========description============ */
+
+.description {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.description-wrapper {
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-page-wrap {
+    display: block;
+    margin-left: 126px;
+}
+        
+.description-title {
+    width: 526px;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.description-text {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.description-page {
+    gap: 67px;
+    margin-bottom: 58px;
+}
+
+.respect-text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.description-link {
+    display: none;
+}
+
+/* =========fovirites========== */
+.favorites {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.favirites-img {
     
+    border: 16px solid #FFE550;
+    border-radius: 197px;
+}
+
+.favorites-title {
+    font-size: 42px;
+    line-height: 1.16;
+    margin-bottom: 20px;
+}
+
+.favorite-text {
+    line-height: 1.19;
+    margin-bottom: 36px;
+}
+
+/* ==========reviews========== */
+.reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.reviews-title {
+    width: 100%;
+    font-size: 42px;
+    line-height: 1.16;
+    margin-bottom: 20px;
+}
+
+.reviews-text-page {
+    line-height: 1.19;
+    margin-bottom: 32px;
+}
+.reviews-list {
+    gap: 140px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+}
+
+
+.text-comment {
+    width: 501px;
+    height: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* ========subscribe=========== */
+
+.subscribe {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-img {
+    display: block;
+}
+
+.subscribe-wrap {
+    display: flex;
+}
 }
